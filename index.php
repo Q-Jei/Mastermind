@@ -161,7 +161,24 @@
 				</div>
 			</div>
 			<div class="selection-container flexer">
-
+				<div class="selector-outer">
+					<div class="selector-inner red"></div>
+				</div>
+				<div class="selector-outer">
+					<div class="selector-inner green"></div>
+				</div>
+				<div class="selector-outer">
+					<div class="selector-inner yellow"></div>
+				</div>
+				<div class="selector-outer">
+					<div class="selector-inner black"></div>
+				</div>
+				<div class="selector-outer">
+					<div class="selector-inner white"></div>
+				</div>
+				<div class="selector-outer">
+					<div class="selector-inner purple"></div>
+				</div>
 			</div>
 
 		</div>

@@ -16,6 +16,7 @@ body {
 	height: 96vh;
 	min-height: 680px;
 	margin: 2vh auto;
+	box-shadow: 10px 10px 15px black;
 }
 
 /***** answer-container *****/
@@ -35,7 +36,7 @@ body {
 	height: 80%;
 	border: 1px solid black;
 	margin: 0 auto;
-	background: linear-gradient(grey, #0000cc);
+	background: linear-gradient(#0000ff, #0000cc);
 	box-shadow: 2px 0px 4px black;
 }
 
@@ -86,6 +87,7 @@ body {
 	border: 1px solid white;
 	border-radius: 30%;
 	margin-left: 2%;
+	background: linear-gradient(#000066, blue);
 }
 
 .grade-pegs {
@@ -102,6 +104,7 @@ body {
 	border: 1px solid black;
 	margin-left: 5%;
 	border-radius: 50%;
+	background: linear-gradient(#000066, blue);
 }
 
 /***** selection-container *****/
@@ -109,4 +112,55 @@ body {
 	box-sizing: border-box;
 	width: 100%;
 	height: 10%;
+	padding-top: 2px;
+}
+
+.selector-outer {
+	box-sizing: border-box;
+	width: 16%;
+	height: 82%;
+	border-radius: 50%;
+	margin: 0 .25px;
+	border: 1px solid black;
+}
+
+.selector-outer:hover {
+	border: 1px solid white;
+}
+
+.selector-inner {
+	box-sizing: border-box;
+	width: 60%;
+	height: 60%;
+	border-radius: 50%;
+	border: 1px solid black;
+	margin: 18% 18% 22% 22%;
+}
+
+.selector-inner:hover {
+	border: 1px solid white;
+}
+
+.red {
+	background-color: red;
+}
+
+.green {
+	background-color: green;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+.black {
+	background-color: black;
+}
+
+.white {
+	background-color: white;
+}
+
+.purple {
+	background-color: purple;
 }
