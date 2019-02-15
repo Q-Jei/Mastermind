@@ -180,8 +180,9 @@
 					<div class="selector-inner purple"></div>
 				</div>
 			</div>
-
 		</div>
+		<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="app.js"></script>
 
 	</body>
 </html>
